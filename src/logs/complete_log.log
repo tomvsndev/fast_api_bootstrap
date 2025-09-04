@@ -1,0 +1,93 @@
+2025-09-04 14:38:10 - INFO [main.lifespan()] - Application startup completed
+2025-09-04 14:38:18 - INFO [main.lifespan()] - Application shutdown completed
+2025-09-04 14:44:29 - INFO [main.lifespan()] - Application startup completed
+2025-09-04 14:45:02 - INFO [main.lifespan()] - Application shutdown completed
+2025-09-04 14:45:02 - INFO [main.lifespan()] - Application startup completed
+2025-09-04 14:45:03 - INFO [main.lifespan()] - Application shutdown completed
+2025-09-04 14:47:21 - INFO [main.<module>()] - hello
+2025-09-04 14:47:21 - INFO [main.lifespan()] - Application startup completed
+2025-09-04 14:47:26 - INFO [main.lifespan()] - Application shutdown completed
+2025-09-04 14:48:40 - INFO [main.<module>()] - hello
+2025-09-04 14:48:40 - INFO [main.lifespan()] - Application startup completed
+2025-09-04 14:48:40 - [main] ERROR:
+{
+  "error_type": "AttributeError",
+  "error_message": "'coroutine' object has no attribute 'run'",
+  "file": "/home/tower/Desktop/python_code/ai/amelia/src/main/main_setup.py",
+  "line": 63,
+  "function": "lifespan",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/tower/Desktop/python_code/ai/amelia/src/main/main_setup.py\", line 63, in lifespan\n    con.run()\nAttributeError: 'coroutine' object has no attribute 'run'",
+  "timestamp": "2025-09-04 14:48:40",
+  "level": "ERROR",
+  "logger": "main",
+  "message": "Error during application lifecycle: 'coroutine' object has no attribute 'run'"
+}
+2025-09-04 14:49:04 - INFO [main.<module>()] - hello
+2025-09-04 14:49:04 - INFO [main.lifespan()] - Application startup completed
+2025-09-04 14:49:05 - INFO [main.lifespan()] - Application shutdown completed
+2025-09-04 14:56:05 - INFO [main.<module>()] - hello
+2025-09-04 15:00:08 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:00:08 - INFO [main.default_task()] - Default background task running
+2025-09-04 15:00:13 - INFO [main.default_task()] - Default background task running
+2025-09-04 15:00:18 - INFO [main.default_task()] - Default background task running
+2025-09-04 15:00:21 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:00:23 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:00:23 - INFO [main.default_task()] - Default background task running
+2025-09-04 15:00:28 - INFO [main.default_task()] - Default background task running
+2025-09-04 15:00:32 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:01:28 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:01:28 - INFO [main.default_task()] - Default background task running
+2025-09-04 15:01:30 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:07:46 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:07:51 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:19:34 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:21:05 - INFO [main.<module>()] - hello
+2025-09-04 15:21:05 - INFO [main.<module>()] - hello
+2025-09-04 15:21:05 - INFO [main.<module>()] - hello
+2025-09-04 15:21:05 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:21:07 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:25:29 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:25:29 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:30 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:31 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:32 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:33 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:33 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:25:50 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:25:50 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:51 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:52 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:53 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:25:53 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:26:13 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:26:13 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:14 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:15 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:16 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:17 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:18 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:18 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:26:19 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:26:19 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:20 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:21 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:22 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:23 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:24 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:25 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:26 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:27 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:28 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:29 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:30 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:31 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:32 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:33 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:26:33 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:28:57 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:29:01 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
+2025-09-04 15:29:07 - INFO [main.lifespan()] - Application startup - starting background tasks
+2025-09-04 15:29:07 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:29:08 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:29:09 - INFO [SomeDemo.run()] - hello world
+2025-09-04 15:29:09 - INFO [main.lifespan()] - Application shutdown - cancelling background tasks
